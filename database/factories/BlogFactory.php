@@ -17,10 +17,12 @@ class BlogFactory extends Factory
      */
     public function definition()
     {
+        $title = fake()->sentence(10);
         return [
             'description' => fake()->paragraphs(10, true),
-            'title' => fake()->sentence(10),
-            'slug' => Str::slug(fake()->sentence(10)),
+            'title' => $title,
+            'slug' => Str::slug($title),
+            'image' => fake()->imageUrl()
         ];
     }
 }

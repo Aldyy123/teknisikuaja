@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('password');
             $table->rememberToken();
             $table->string('username')->unique()->index();
-            $table->foreign('username')->on('biodata')->references('username')
+            $table->foreign('username')->on('biodatas')->references('username')
             ->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
         });

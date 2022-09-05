@@ -13,15 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('blog', function (Blueprint $table) {
+        Schema::create('comments', function (Blueprint $table) {
             $table->id();
-            $table->longText('description');
-            $table->string('image')->nullable();
-            $table->string('title');
-            $table->string('slug');
+            $table->foreignId('id_blog')->references('id')->on('blogs');
             $table->string('username')->index();
-            $table->foreign('username')->on('biodata')->references('username')
+            $table->foreign('username')->on('biodatas')->references('username')
             ->onDelete('cascade')->onUpdate('cascade');
+            $table->longText('description');
             $table->timestamps();
         });
     }
@@ -33,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('blog');
+        Schema::dropIfExists('comments');
     }
 };

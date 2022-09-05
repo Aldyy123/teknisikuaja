@@ -13,10 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('technician', function (Blueprint $table) {
+        Schema::create('technicians', function (Blueprint $table) {
             $table->id();
             $table->string('username')->index();
-            $table->foreign('username')->on('biodata')->references('username')
+            $table->foreign('username')->on('biodatas')->references('username')
             ->onDelete('cascade')->onUpdate('cascade');
             $table->unsignedFloat('star', 5)->default(0);
             $table->enum('badge', ['pro', 'trusted', 'silver'])->nullable();

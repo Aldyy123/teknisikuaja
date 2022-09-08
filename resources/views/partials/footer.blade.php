@@ -1,4 +1,6 @@
 <footer>
+
+    {{-- Top Footer --}}
     <div class="bg-gray-100 pt-5">
         <div class="max-w-screen-lg px-4 sm:px-6 text-gray-800 sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto">
             <div class="p-5">
@@ -21,8 +23,9 @@
             </div>
         </div>
     </div>
+    {{-- End Top Footer --}}
 
-    <!-- Media Sosial Ikon -->
+    {{-- Social Media Icons --}}
     <div class="bg-gray-100 pt-2">
         <div class="flex pb-5 px-3 m-auto pt-5 text-gray-800 text-sm flex-col
       max-w-screen-lg items-center">
@@ -108,4 +111,6 @@
             <div class="my-5">© Copyright 2022. All Rights Reserved.</div>
         </div>
     </div>
+    {{-- End Section --}}
+
 </footer>

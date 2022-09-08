@@ -13,13 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('technicians', function (Blueprint $table) {
+        Schema::create('questions', function (Blueprint $table) {
             $table->id();
             $table->string('username')->index();
             $table->foreign('username')->on('biodatas')->references('username')
-                ->onDelete('cascade')->onUpdate('cascade');
-            $table->unsignedFloat('star', 5)->default(0);
-            $table->enum('badge', ['pro', 'trusted', 'silver'])->nullable();
+            ->onDelete('cascade')->onUpdate('cascade');
+            $table->string('title');
+            $table->longText('description');
             $table->timestamps();
         });
     }
@@ -31,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('technician');
+        Schema::dropIfExists('questions');
     }
 };

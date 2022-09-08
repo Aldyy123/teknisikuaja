@@ -18,7 +18,7 @@ return new class extends Migration
             $table->foreignId('id_blog')->references('id')->on('blogs');
             $table->string('username')->index();
             $table->foreign('username')->on('biodatas')->references('username')
-                ->onDelete('cascade')->onUpdate('cascade');
+            ->onDelete('cascade')->onUpdate('cascade');
             $table->longText('description');
             $table->timestamps();
         });

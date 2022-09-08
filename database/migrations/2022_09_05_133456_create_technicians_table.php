@@ -13,15 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('blogs', function (Blueprint $table) {
+        Schema::create('technicians', function (Blueprint $table) {
             $table->id();
-            $table->longText('description');
-            $table->string('image')->nullable();
-            $table->string('title');
-            $table->string('slug');
             $table->string('username')->index();
             $table->foreign('username')->on('biodatas')->references('username')
-                ->onDelete('cascade')->onUpdate('cascade');
+            ->onDelete('cascade')->onUpdate('cascade');
+            $table->unsignedFloat('star', 5)->default(0);
+            $table->enum('badge', ['pro', 'trusted', 'silver'])->nullable();
             $table->timestamps();
         });
     }
@@ -33,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('blogs');
+        Schema::dropIfExists('technician');
     }
 };

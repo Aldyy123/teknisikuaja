@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Teknisiku | Solusi Kerusakan Elektronik</title>
 
-  <!-- Vite REsource -->
+  <!-- Vite Resource -->
   @vite('resources/css/app.css')
 
 </head>
@@ -19,8 +19,8 @@
   @yield('container')
   @include('partials.footer')
 
-  <!-- Tailwind CSS Javascript Vendor -->
-  <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+  <!-- Vite Javascript Resource -->
+  @vite('resources/js/app.js')
 
 </body>
 

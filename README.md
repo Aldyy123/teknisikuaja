@@ -1,6 +1,6 @@
-# Konsultasi - Computer Consulting Service App
+# Teknisiku - Computer Consulting Service App
 
-Consulting is a web computer consulting service and works with partners to solve problems on client computers.
+Teknisiku is a web computer consulting service and works with partners to solve problems on client computers.
 
 ### 📆 Development Start
 
@@ -54,6 +54,12 @@ Consulting is a web computer consulting service and works with partners to solve
 -   Start build the app :
     ```sh
     npm run build
+    ```
+- Cache cleaner
+    ```sh
+    php artisan cache:clear
+    php artisan config:cache
+    php artisan route:cache
     ```
 
 ### 🎨 Mockup

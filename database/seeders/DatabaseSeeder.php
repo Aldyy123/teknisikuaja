@@ -8,7 +8,7 @@ use App\Models\Biodatas;
 use App\Models\Blog;
 use App\Models\Comment;
 use App\Models\Questions;
-use App\Models\Users;
+use App\Models\User;
 use Illuminate\Database\Seeder;
 use Symfony\Component\Finder\Glob;
 
@@ -25,7 +25,7 @@ class DatabaseSeeder extends Seeder
         $i = 0;
         Biodatas::factory(10)->create()->each(function ($datas) {
 
-            Users::factory()->create([
+            User::factory()->create([
                 'username' => $datas->username
             ]);
 

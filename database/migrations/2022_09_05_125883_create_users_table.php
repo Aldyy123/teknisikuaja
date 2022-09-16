@@ -19,6 +19,7 @@ return new class extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
+            $table->string('name')->nullable();
             $table->string('username')->unique()->index();
             $table->foreign('username')->on('biodatas')->references('username')
             ->onDelete('cascade')->onUpdate('cascade');

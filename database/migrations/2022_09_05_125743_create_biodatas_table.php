@@ -15,7 +15,6 @@ return new class extends Migration
     {
         Schema::create('biodatas', function (Blueprint $table) {
             $table->string('username', 50)->primary();
-            $table->string('name')->nullable();
             $table->char('phone')->nullable();
             $table->string('address', 200)->nullable();
             $table->string('img_url')->nullable();

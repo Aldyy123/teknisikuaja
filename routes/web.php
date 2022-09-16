@@ -6,7 +6,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $blogs = DB::table('blogs')->orderByDesc('created_at')->limit(3)->get();
-
     return view('home', [
         'title' => 'Teknisiku - Solusi Kerusakan Elektronik',
         'blogs' => $blogs,
@@ -18,7 +17,7 @@ Route::get('/tanya', function () {
 });
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('layouts.dashboard');
 })->middleware(['auth'])->name('dashboard');
 
 require __DIR__ . '/auth.php';

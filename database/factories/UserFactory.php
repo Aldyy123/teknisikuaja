@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Hash;
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Model>
  */
-class UsersFactory extends Factory
+class UserFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -19,7 +19,8 @@ class UsersFactory extends Factory
     {
         return [
             'email' => fake()->email(),
-            'password' => Hash::make('12345678'),
+            'name' => fake()->firstName(). ' ' . fake()->lastName(),
+            'password' => Hash::make('password'),
         ];
     }
 }

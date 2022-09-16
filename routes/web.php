@@ -6,9 +6,15 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $blogs = DB::table('blogs')->orderByDesc('created_at')->limit(3)->get();
+
     return view('home', [
+        'title' => 'Teknisiku - Solusi Kerusakan Elektronik',
         'blogs' => $blogs,
     ]);
+});
+
+Route::get('/tanya', function () {
+    return view('tanya');
 });
 
 Route::get('/dashboard', function () {

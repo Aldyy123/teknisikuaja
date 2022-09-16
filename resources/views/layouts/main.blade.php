@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teknisiku | Solusi Kerusakan Elektronik</title>
+  <title>Teknisiku AJa</title>
 
-  <!-- Vite REsource -->
+  <!-- Vite Resource -->
   @vite('resources/css/app.css')
 
 </head>
@@ -16,11 +16,11 @@
 
 
   @include('partials.header')
-  @yield('container')
+    @yield('container')
   @include('partials.footer')
 
-  <!-- Tailwind CSS Javascript Vendor -->
-  <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+  <!-- Vite Javascript Resource -->
+  @vite('resources/js/app.js')
 
 </body>
 

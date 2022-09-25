@@ -5,10 +5,10 @@ namespace Database\Seeders;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 use App\Models\Biodatas;
-use App\Models\Blog;
-use App\Models\Comment;
+use App\Models\Blogs;
+use App\Models\Comments;
 use App\Models\Questions;
-use App\Models\Users;
+use App\Models\User;
 use Illuminate\Database\Seeder;
 use Symfony\Component\Finder\Glob;
 
@@ -25,15 +25,15 @@ class DatabaseSeeder extends Seeder
         $i = 0;
         Biodatas::factory(10)->create()->each(function ($datas) {
 
-            Users::factory()->create([
+            User::factory()->create([
                 'username' => $datas->username
             ]);
 
-            $blog = Blog::factory()->create([
+            $blog = Blogs::factory()->create([
                 'username' => $datas->username
             ]);
 
-            Comment::factory()->create([
+            Comments::factory()->create([
                 'id_blog' => $blog->id,
                 'username' => $datas->username,
                 'description' => fake()->paragraphs(10, true)

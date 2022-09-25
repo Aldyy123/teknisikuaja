@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('comments', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('id_blog')->references('id')->on('blogs');
+            $table->foreignId('id_blog')->references('id')->on('blogs')->onDelete('cascade')->onUpdate('cascade');
             $table->string('username')->index();
             $table->foreign('username')->on('biodatas')->references('username')
             ->onDelete('cascade')->onUpdate('cascade');

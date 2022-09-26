@@ -21,4 +21,19 @@
             </div>
         </main>
     </div>
+    <div class="w-full p-5">
+    <div class="container flex flex-col xl:flex-row mx-auto px-5 py-8 xl:py-14 text-gray-500 bg-gray-200 rounded-2xl">
+      <div class="w-full mb-6 xl:mb-0 sm:text-center">
+        <div class="mb-4 text-gray-900 text-3xl font-extrabold">Gabung 5,000+ Pelanggan</div>
+        <div class="text-lg">Tetap terhubung dengan semua yang perlu Anda ketahui.</div>
+      </div>
+      <div class="w-full">
+        <div class="flex flex-col justify-center sm:flex-row gap-3 w-full">
+          <input type="text" placeholder="Enter your email" class="sm:w-2/4 h-12 p-3 text-gray-900 border border-solid border-gray-300 rounded-lg shadow">
+          <button type="submit" class="sm:w-1/4 h-12 text-white bg-red-600 rounded-lg shadow transition-all duration-300 ease-in-out hover:bg-red-700">Langganan</button>
+        </div>
+        <div class="mt-3 text-sm sm:text-center">Kami peduli dengan data Anda di kami <u class="cursor-pointer transition-all duration-300 ease-in-out hover:text-gray-700">Privacy Policy</u>.</div>
+      </div>
+    </div>
+  </div>
 </section>

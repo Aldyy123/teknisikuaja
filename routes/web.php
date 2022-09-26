@@ -28,6 +28,10 @@ Route::get('/tanya/{id}', function ($id) {
     ]);
 })->name('detailqs');
 
+Route::get('/detail', function () {
+    return view('post');
+});
+
 Route::get('/dashboard', function () {
     return view('layouts.dashboard');
 })->middleware(['auth'])->name('dashboard');

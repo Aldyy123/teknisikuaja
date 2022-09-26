@@ -17,13 +17,15 @@
 
 <body>
 
-
   @include('partials.header')
     @yield('container')
   @include('partials.footer')
 
   {{-- Vite Javascript Resource --}}
   @vite('resources/js/app.js')
+
+  {{-- Javascript Tailwind JS --}}
+  <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
 
 </body>
 

@@ -27,7 +27,7 @@
         <div class="flex gap-2 justify-center">
             {{-- <div class="flex gap-2">
                 <a href="">First</a>
-                <a href="">Preiview</a>
+                <a href="">Previous</a>
             </div>
             <div class="list-none flex gap-1">
                 <li><a href="" class="hover:border hover:border-red-400 rounded-xl h-8 w-8 text-center align-middle inline-block">1</a></li>

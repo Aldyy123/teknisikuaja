@@ -18,8 +18,8 @@
                 </div>
             </div>
             <div class="flex justify-evenly">
-                <a href="" class="mr-2 w-5/12 text-center hover:bg-zinc-800 rounded-md py-1 px-3 bg-red-600 text-white">Tanya</a>
-                <a href="" class="mr-2 w-5/12 rounded-md text-center py-1 px-3 text-white bg-red-600 hover:bg-red-800">Cari Teknisi</a>
+                <a href="" class="mr-2 w-5/12 text-center hover:bg-red-800 rounded-md py-1 px-3 bg-red-600 text-white">Tanya</a>
+                <a href="" class="mr-2 w-5/12 rounded-md text-center py-1 text-white bg-red-600 hover:bg-red-800">Cari Teknisi</a>
             </div>
         </div>
     </div>

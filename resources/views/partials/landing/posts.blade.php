@@ -10,7 +10,7 @@
                 {{-- Masalah 1 --}}
                     <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
                         <article class="overflow-hidden rounded-lg shadow-lg">
-                            <a href="">
+                            <a href="{{ route('detail-post', 2) }}">
                                 <img alt="Placeholder" class="block h-auto w-full" src="{{ asset('images/kulkas-tidak-dingin.jpg') }}">
                             </a>
                             <header class="flex items-center justify-between leading-tight p-2 md:p-4">

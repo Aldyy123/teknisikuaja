@@ -39,7 +39,7 @@
                     </div>
                     <input type="text" id="search-navbar" class="block p-2 pl-10 w-full text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:text-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Search...">
                 </div>
-                <ul class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white ">
+                <ul class="flex flex-col p-4 mt-4 bg-gray-700 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white ">
                     <li>
                         <a href="/" class="block py-2 pr-4 pl-3 text-white hover:text-red-600 bg-transparent rounded md:bg-transparent md:text-red-700 md:p-0 dark:text-white" aria-current="page">Home</a>
                     </li>
@@ -63,7 +63,7 @@
                         <a href="posts" class="block py-2 pr-4 pl-3 text-white hover:text-red-600 bg-transparent rounded md:bg-transparent md:text-red-700 md:p-0 dark:text-white" aria-current="page">Artikel</a>
                     </li>
                     <li>
-                        <a href="{{ route('cari-teknisi') }}" class="block py-2 pr-4 pl-3 text-white hover:text-red-600 bg-transparent rounded md:bg-transparent md:text-red-700 md:p-0 dark:text-white" aria-current="page">Cari Teknisi</a>
+                        <a href="{{ route('cari-teknisi') }}" class="block py-2 pr-4 pl-3 text-white hover:text-red-600 bg-transparent rounded md:bg-transparent md:text-red-900 md:p-0 dark:text-white" aria-current="page">Cari Teknisi</a>
                     </li>
                     <li>
                         <a href="{{ route('questions') }}" class="block py-2 pr-4 pl-3 text-white hover:text-red-600 bg-transparent rounded md:bg-transparent md:text-red-700 md:p-0 dark:text-white" aria-current="page">Tanya Teknisi</a>

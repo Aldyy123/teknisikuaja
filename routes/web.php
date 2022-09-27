@@ -28,9 +28,9 @@ Route::get('/tanya/{id}', function ($id) {
     ]);
 })->name('detailqs');
 
-Route::get('/detail', function () {
+Route::get('/detail/{id}', function () {
     return view('post');
-});
+})->name('detail-post');
 
 Route::get('/posts', function () {
     return view('posts');

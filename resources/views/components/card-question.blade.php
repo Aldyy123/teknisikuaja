@@ -1,5 +1,5 @@
 <a href="{{ route('detailqs', $id) }}" class="my-2 block box-border">
-    <div class="rounded-md bg-slate-400 box-content p-2 hover:bg-transparent hover:border hover:border-gray-400">
+    <div class="rounded-md bg-red-500 box-content p-2 hover:bg-transparent text-white hover:text-black transition-all hover:border hover:border-gray-400">
         <div class="flex gap-4 items-center px-3">
             <img class="rounded-full w-16 h-16" src="{{ $profile }}" alt="{{$username}}">
             <div class="flex flex-col">
@@ -14,8 +14,8 @@
             <p class="font-bold opacity-[0.5]">{{ $count }} Pembahasan</p>
         </div>
         <div class="flex gap-1 px-3 py-1 flex-wrap">
-            <p class="ring-1 bg-red-300 p-1 rounded-lg text-xs">#Komputer</p>
-            <p class="ring-1 bg-red-300 p-1 rounded-lg text-xs">#tv</p>
+            <p class="ring-1 bg-red-200 p-1 rounded-lg text-xs">#Komputer</p>
+            <p class="ring-1 bg-red-200 p-1 rounded-lg text-xs">#tv</p>
         </div>
     </div>
 </a>

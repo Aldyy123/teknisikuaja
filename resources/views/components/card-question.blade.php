@@ -3,12 +3,12 @@
         <div class="flex gap-4 items-center px-3">
             <img class="rounded-full w-16 h-16" src="{{ $profile }}" alt="{{$username}}">
             <div class="flex flex-col">
-                <h3 class="font-sans font-bold text-xl">{{ $username }}</h3>
-                <p class="font-thin text-sm">2 jam kemudian</p>
+                <h3 class="font-nunito font-bold text-xl">{{ $username }}</h3>
+                <p class="font-sans text-sm">2 jam kemudian</p>
             </div>
         </div>
         <div class="text-justify p-3 text-lg">
-            <p>{{ $title }}</p>
+            <p class="font-nunito font-normal">{{ $title }}</p>
         </div>
         <div class="px-3 text-sm">
             <p class="font-bold opacity-[0.5]">{{ $count }} Pembahasan</p>

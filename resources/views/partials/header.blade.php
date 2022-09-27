@@ -41,7 +41,7 @@
                 </div>
                 <ul class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white ">
                     <li>
-                        <a href="#" class="block py-2 pr-4 pl-3 text-white hover:text-red-600 bg-transparent rounded md:bg-transparent md:text-red-700 md:p-0 dark:text-white" aria-current="page">Home</a>
+                        <a href="/" class="block py-2 pr-4 pl-3 text-white hover:text-red-600 bg-transparent rounded md:bg-transparent md:text-red-700 md:p-0 dark:text-white" aria-current="page">Home</a>
                     </li>
                     <li>
                         <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="hover:text-red-600 flex justify-between items-center py-2 pr-4 pl-3 w-full font-medium text-red-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 md:w-auto dark:text-red-600 dark:hover:text-red-700 dark:focus:text-red-600 dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Info Kerusakan <svg class="ml-1 w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -63,7 +63,10 @@
                         <a href="posts" class="block py-2 pr-4 pl-3 text-white hover:text-red-600 bg-transparent rounded md:bg-transparent md:text-red-700 md:p-0 dark:text-white" aria-current="page">Artikel</a>
                     </li>
                     <li>
-                        <a href="questions" class="block py-2 pr-4 pl-3 text-white hover:text-red-600 bg-transparent rounded md:bg-transparent md:text-red-700 md:p-0 dark:text-white" aria-current="page">Tanya Teknisi</a>
+                        <a href="{{ route('cari-teknisi') }}" class="block py-2 pr-4 pl-3 text-white hover:text-red-600 bg-transparent rounded md:bg-transparent md:text-red-700 md:p-0 dark:text-white" aria-current="page">Cari Teknisi</a>
+                    </li>
+                    <li>
+                        <a href="{{ route('questions') }}" class="block py-2 pr-4 pl-3 text-white hover:text-red-600 bg-transparent rounded md:bg-transparent md:text-red-700 md:p-0 dark:text-white" aria-current="page">Tanya Teknisi</a>
                     </li>
                 </ul>
             </div>

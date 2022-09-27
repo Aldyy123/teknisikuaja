@@ -38,7 +38,7 @@ Route::get('/posts', function () {
 
 Route::get('/cari-teknisi', function () {
     return view('cari');
-});
+})->name('cari-teknisi');
 
 Route::get('/dashboard', function () {
     return view('layouts.dashboard');

@@ -7,7 +7,7 @@
             @forelse ($questions as $question)
                 <x-card-question :count='2' :id="$question->id" :title="$question['title']" :profile="$question->biodata->img_url" :username="$question->username" />
             @empty
-                <h2>Gk ada</h2>
+                <h2>Tidak ada Data</h2>
             @endforelse
         </div>
         <div class="w-4/12 mx-1">

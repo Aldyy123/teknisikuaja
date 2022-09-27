@@ -32,8 +32,12 @@ Route::get('/detail', function () {
     return view('post');
 });
 
-Route::get('/form-tanya', function () {
-    return view('form-tanya');
+Route::get('/posts', function () {
+    return view('posts');
+});
+
+Route::get('/cari-teknisi', function () {
+    return view('cari');
 });
 
 Route::get('/dashboard', function () {

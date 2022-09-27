@@ -1,42 +1,73 @@
-# Teknisiku Aja
+# Teknisiku - Computer Consulting Service App
 
-Aplikasi web yang berfokus kepada solusi elektronik, memberikan solusi kepada user saat mendapatkan masalah elektronik. Memberikan peluang kepada pelaku umkm untuk memajukan layanannya ke Digitalisasi.
+Teknisiku is a web computer consulting service and works with partners to solve problems on client computers.
 
----
+### 📆 Development Start
 
-### How to configure
+-   September, 2022
 
-1. Clone repository branch development
-2. Buka command line dan ketikan perintah. ``` git flow init ``` untuk melakukan manajemen code antar team.
-3. Konfigurasikan git flow tersebut.
-4. Jika kamu akan membuat fitur pada project tersebut, ketikan perintah 
-```cli 
-git flow feature <nama-feature>
-```
+### 👨‍💻 Developer
 
-5. Kamu bisa melihat dokumentasi git flow di [Sinii](https://danielkummer.github.io/git-flow-cheatsheet/)
+-   M. Ardi Trisnaldi
+-   Andika Tulus Pangestu
+-   Khanifah
+-   Ida Rahmawati
 
-**Note: Jika feature sudah selesai dilakukan, bisa release fitur tersebut dan merge ke development. Disarankan merge dengan branch master jika fitur tersebut benar - benar matang**
+### 🗒 ToDo List - Frontend
 
----
+- [x] Landing Page
+- [ ] Dashboard
+- [ ] Detail Artikel
+- [ ] Chat Konsultasi
+- [ ] SEO Optimize
+- [ ] Others ...
 
-### Todo List
+### 🗒 ToDo List - Backend
 
-Task list yang kamus lakukan bisa di manajemen di link berikut.
+- [x] Register & Login Auth
+- [ ] Others ...
 
-#### [Task List Backend Developer](https://zealous-handball-98b.notion.site/9dbd04cc60684b68afdddb0862cc97e0?v=ec9d6f0ea3874abba9efeb5781f990bd) 
+### 🔍 What's new?
 
-#### [Task List Frontend Developer](https://zealous-handball-98b.notion.site/1d4f5f2db7154ab4b62a758aeb092e53?v=00fc01976bc2496b8820e431041e10f7)
+-   View changes [more.](../development/changelogs.md)
 
----
+### 📸 Preview
 
-### Mockup Pengembangan
+-   Available soon..
 
-Mockup dan rancangan bisa di akses melalui link berikut.
+### 📝 Terms of Use
 
-#### [Mockup Frontend](https://www.figma.com/file/P6H99OL0Hb73VV5mry59MN/Konsultan?node-id=0%3A1)
+-   Javascript ES6 Supported
+-   Web Browsers (Chrome, Firefox, Opera, Safari)
+-   Has Node.JS version 14.x.x
+-   Using NPM version 8.5.x
+-   Stable Internet Connection
 
-#### [Mockup Database Design](https://drive.google.com/file/d/1ovbkBuhm3_71OjgqGG1wH4GT5X6Z7sme/view?usp=sharing)
+### 💡 Command to Start the application
 
----
+-   Start server from localhost :
 
+    ```sh
+    npm start
+    ```
+
+-   Start build the app :
+    ```sh
+    npm run build
+    ```
+- Cache cleaner
+    ```sh
+    php artisan cache:clear
+    php artisan config:cache
+    php artisan route:cache
+    ```
+
+### 🎨 Mockup
+
+We use figma to design the structure and layout of the application.
+
+[Look at Figma](https://www.figma.com/file/P6H99OL0Hb73VV5mry59MN/Konsultan?node-id=0%3A1)
+
+### 🔐 License
+
+**This is closed source software under the [MIT license](https://choosealicense.com/licenses/mit/), for competition or community purposes only.**

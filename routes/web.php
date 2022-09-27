@@ -1,24 +1,43 @@
 <?php
 
+use App\Models\Questions;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
-
 Route::get('/', function () {
-    return view('welcome');
+    $blogs = DB::table('blogs')->orderByDesc('created_at')->limit(3)->get();
+    return view('home', [
+        'title' => 'Teknisiku - Solusi Kerusakan Elektronik',
+        'blogs' => $blogs,
+    ]);
+});
+
+Route::get('/tanya', function () {
+    $qestions = Questions::paginate(2);
+    // dd($qestions);
+    return view('tanya', [
+        'questions' => $qestions,
+    ]);
+})->name('questions');
+
+Route::get('/tanya/{id}', function ($id) {
+    $question = Questions::find($id);
+    return view('detailqs', [
+        'question' => $question
+    ]);
+})->name('detailqs');
+
+Route::get('/detail', function () {
+    return view('post');
+});
+
+Route::get('/form-tanya', function () {
+    return view('form-tanya');
 });
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('layouts.dashboard');
 })->middleware(['auth'])->name('dashboard');
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';

@@ -10,7 +10,6 @@ use App\Models\Comments;
 use App\Models\Questions;
 use App\Models\User;
 use Illuminate\Database\Seeder;
-use Symfony\Component\Finder\Glob;
 
 class DatabaseSeeder extends Seeder
 {

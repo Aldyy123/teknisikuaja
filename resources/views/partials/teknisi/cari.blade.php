@@ -1,4 +1,4 @@
-<div class="min-h-screen bg-gray-100 py-10 px-5 xl:py-0 xl:px-0 mb-6">
+<header class="min-h-screen bg-gray-100 py-10 px-5 xl:py-0 xl:px-0 mb-6">
   <div class="min-h-screen xl:grid place-items-center place-content-center xl:grid-cols-2 xl:max-w-screen-xl mx-auto w-11/12 xl:max-w-screen-2xl gap-14">
     <div class="max-w-xl mx-auto xl:max-w-2xl xl:-mt-8">
       <h1 class="text-3xl xl:text-5xl font-semibold xl:leading-snug text-gray-900 2xl:text-6xl 2xl:leading-snug">Cari dan Panggil <span class="text-red-500">Teknisi Terdekat</span> di Kota-mu</h1>
@@ -31,7 +31,7 @@
     </div>
     <div class="card__grid mt-14 xl:mt-0 sm:justify-items-center">
 
-      <div class="card--1 max-w-xs bg-white shadow-xl rounded-3xl pt-4 pb-8 px-5 lg:row-start-1 lg:row-end-3">
+      <div class="card--1 max-w-xs bg-white shadow rounded-3xl pt-4 pb-8 px-5 lg:row-start-1 lg:row-end-3">
         <div class="w-full h-40 lg:h-48 xl:h-56">
           <img class="w-full h-full object-cover rounded-2xl" src="https://images.unsplash.com/photo-1664029593214-3f90535cd0cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80" alt="Kateryna Hliznitsova">
         </div>
@@ -44,7 +44,7 @@
         </div>
 
       </div>
-      <div class="card--2 w-full max-w-xs flex items-center bg-white shadow-xl rounded-3xl w-80 p-5 lg:row-start-1 lg:row-end-2">
+      <div class="card--2 w-full max-w-xs flex items-center bg-white shadow rounded-3xl w-80 p-5 lg:row-start-1 lg:row-end-2">
         <div class="w-20 h-20">
           <img src="https://images.unsplash.com/photo-1663670761152-3b9f3edfdefc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="" class="rounded-2xl object-cover w-full h-full">
         </div>
@@ -73,7 +73,7 @@
         </div>
       </div>
 
-      <div class="card--3 max-w-xs bg-white shadow-xl rounded-3xl pt-4 pb-8 px-5 lg:row-start-2 lg:row-end-5">
+      <div class="card--3 max-w-xs bg-white shadow rounded-3xl pt-4 pb-8 px-5 lg:row-start-2 lg:row-end-5">
         <div class="w-full h-40 lg:h-48 xl:h-56">
           <img class="w-full h-full object-cover rounded-2xl" src="https://images.unsplash.com/photo-1664165263956-79ac4d05fa29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="Lara Chraft">
         </div>
@@ -84,10 +84,8 @@
                 <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
               </svg>5.0</span></p>
         </div>
-
       </div>
-
-      <div class="card--4 lg:row-start-3 lg:row-end-4 max-w-xs flex items-center bg-white shadow-xl rounded-3xl w-80 p-5 w-full">
+      <div class="card--4 lg:row-start-3 lg:row-end-4 max-w-xs flex items-center bg-white shadow rounded-3xl w-80 p-5 w-full">
         <div class="w-20 h-20">
           <img src="https://images.unsplash.com/photo-1664058501141-800215789f27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" alt="John Doe" class="rounded-2xl object-cover w-full h-full">
         </div>
@@ -124,7 +122,7 @@
     <h3 class="text-2xl mb-1">Hasil Pencarian : </h3>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
       <!-- Teknisi 1 -->
-      <div class="card--4 lg:row-start-3 mr-3.5 lg:row-end-4 max-w-xs flex items-center bg-white shadow-xl rounded-3xl w-80 p-5 w-full">
+      <div class="card--4 lg:row-start-3 mr-3.5 lg:row-end-4 max-w-xs flex items-center bg-white shadow rounded-3xl w-80 p-5 w-full">
         <div class="w-20 h-20">
           <img src="https://images.unsplash.com/photo-1664058501141-800215789f27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" alt="John Doe" class="rounded-2xl object-cover w-full h-full">
         </div>
@@ -154,7 +152,7 @@
       </div>
 
       <!-- Teknisi 2 -->
-      <div class="card--4 lg:row-start-3 mr-2 lg:row-end-4 max-w-xs flex items-center bg-white shadow-xl rounded-3xl w-80 p-5 w-full">
+      <div class="card--4 lg:row-start-3 mr-2 lg:row-end-4 max-w-xs flex items-center bg-white shadow rounded-3xl w-80 p-5 w-full">
         <div class="w-20 h-20">
           <img src="https://images.unsplash.com/photo-1663520003211-b17be69172eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80" alt="John Doe" class="rounded-2xl object-cover w-full h-full">
         </div>
@@ -184,7 +182,7 @@
       </div>
 
       <!-- Teknisi 3 -->
-      <div class="card--4 lg:row-start-3 mr-2 lg:row-end-4 max-w-xs flex items-center bg-white shadow-xl rounded-3xl w-80 p-5 w-full">
+      <div class="card--4 lg:row-start-3 mr-2 lg:row-end-4 max-w-xs flex items-center bg-white shadow rounded-3xl w-80 p-5 w-full">
         <div class="w-20 h-20">
           <img src="https://images.unsplash.com/photo-1662985581988-ec2ba98e33e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="John Doe" class="rounded-2xl object-cover w-full h-full">
         </div>
@@ -214,7 +212,7 @@
       </div>
 
       <!-- Teknisi 4 -->
-      <div class="card--4 lg:row-start-3 mr-2 lg:row-end-4 max-w-xs flex items-center bg-white shadow-xl rounded-3xl w-80 p-5 w-full">
+      <div class="card--4 lg:row-start-3 mr-2 lg:row-end-4 max-w-xs flex items-center bg-white shadow rounded-3xl w-80 p-5 w-full">
         <div class="w-20 h-20">
           <img src="https://images.unsplash.com/photo-1662777056797-8d2ffe7fbb7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1008&q=80" alt="John Doe" class="rounded-2xl object-cover w-full h-full">
         </div>
@@ -243,4 +241,4 @@
         </div>
       </div>
     </div>
-</div>
+</header>

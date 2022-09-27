@@ -10,6 +10,9 @@
   {{-- Bootstrap Icons --}}
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
+  <!-- Intro.Js CDN CSS -->
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/intro.js/minified/intro.min.js">
+
   {{-- Vite Resource --}}
   @vite('resources/css/app.css')
 
@@ -26,6 +29,20 @@
 
   {{-- Javascript Tailwind JS --}}
   <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+
+  <!-- Intro.JS Javascript CDN -->
+  <script type="text/javascript" src="https://unpkg.com/intro.js/minified/introjs.min.css"></script>
+
+  <script type="text/javascript">
+    introJs().setOptions({
+      steps: [{
+        intro: "Hello world!"
+      }, {
+        element: document.querySelector('#login'),
+        intro: "Click here to login!"
+      }]
+    }).start();
+  </script>
 
 </body>
 

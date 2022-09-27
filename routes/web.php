@@ -32,6 +32,10 @@ Route::get('/detail', function () {
     return view('post');
 });
 
+Route::get('/form-tanya', function () {
+    return view('form-tanya');
+});
+
 Route::get('/dashboard', function () {
     return view('layouts.dashboard');
 })->middleware(['auth'])->name('dashboard');

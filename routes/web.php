@@ -40,6 +40,10 @@ Route::get('/cari-teknisi', function () {
     return view('cari');
 })->name('cari-teknisi');
 
+Route::get('/form-question', function () {
+    return view('form-tanya');
+})->name('form-tanya');
+
 Route::get('/dashboard', function () {
     return view('layouts.dashboard');
 })->middleware(['auth'])->name('dashboard');

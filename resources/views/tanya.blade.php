@@ -5,7 +5,7 @@
     <div class="mx-auto my-3 w-11/12 flex md:justify-evenly flex-col-reverse md:flex-row">
         <div class="md:w-7/12 w-full mx-1">
             @forelse ($questions as $question)
-                <x-card-question :count='2' :id="$question->id" :title="$question['title']" :profile="$question->biodata->img_url"
+                <x-card-question :id="$question->id" :title="$question['title']" :profile="$question->biodata->img_url"
                     :username="$question->username" />
             @empty
                 <h2>Tidak ada Data</h2>

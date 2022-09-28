@@ -11,9 +11,8 @@
             <p class="font-nunito font-normal">{{ $title }}</p>
         </div>
         <div class="px-3 text-sm">
-            <p class="font-bold opacity-[0.5]">{{ $count }} Pembahasan</p>
         </div>
-        <div class="flex gap-1 px-3 py-1 flex-wrap">
+        <div class="flex gap-1 px-3 py-1 text-black flex-wrap">
             <p class="ring-1 bg-red-200 p-1 rounded-lg text-xs">#Komputer</p>
             <p class="ring-1 bg-red-200 p-1 rounded-lg text-xs">#tv</p>
         </div>

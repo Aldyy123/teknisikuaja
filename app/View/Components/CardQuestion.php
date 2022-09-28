@@ -7,7 +7,6 @@ use Illuminate\View\Component;
 class CardQuestion extends Component
 {
 
-    public $count;
     public $username;
     public $title;
     public $profile;
@@ -18,9 +17,8 @@ class CardQuestion extends Component
      *
      * @return void
      */
-    public function __construct($count, $title, $username, $profile, $id)
+    public function __construct($title, $username, $profile, $id)
     {
-        $this->count = $count;
         $this->title = $title;
         $this->username = $username;
         $this->profile = $profile;

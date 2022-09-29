@@ -2,15 +2,16 @@
 
 {{-- Questions Page --}}
 @section('container')
-    <div class="mx-auto my-3 w-11/12 flex md:justify-evenly">
-        <div class="w-7/12 mx-1">
+    <div class="mx-auto my-3 w-11/12 flex md:justify-evenly flex-col-reverse md:flex-row">
+        <div class="md:w-7/12 w-full mx-1">
             @forelse ($questions as $question)
-                <x-card-question :count='2' :id="$question->id" :title="$question['title']" :profile="$question->biodata->img_url" :username="$question->username" />
+                <x-card-question :id="$question->id" :title="$question['title']" :profile="$question->biodata->img_url"
+                    :username="$question->username" />
             @empty
                 <h2>Tidak ada Data</h2>
             @endforelse
         </div>
-        <div class="w-4/12 mx-1">
+        <div class="md:w-4/12 w-full mx-1">
             <div class="rounded-md p-3">
                 <div>
                     <h2 class="font-mono font-bold text-gray-400">Cari kendala...</h2>
@@ -18,14 +19,15 @@
                 </div>
             </div>
             <div class="flex justify-evenly">
-                <a href="" class="mr-2 w-5/12 text-center hover:bg-red-800 rounded-md py-1 px-3 bg-red-600 text-white">Tanya</a>
-                <a href="" class="mr-2 w-5/12 rounded-md text-center py-1 text-white bg-red-600 hover:bg-red-800">Cari Teknisi</a>
+                <a href="{{ route('form-tanya') }}"
+                    class="mr-2 w-5/12 text-center hover:bg-red-800 rounded-md py-1 px-3 bg-red-600 text-white">Tanya</a>
+                <a href="{{ route('cari-teknisi') }}"
+                    class="mr-2 w-5/12 rounded-md text-center py-1 text-white bg-red-600 hover:bg-red-800">Cari Teknisi</a>
             </div>
         </div>
     </div>
-    <div class="mx-auto my-3 w-11/12 flex md:justify-evenly md:items-center">
-        <div class="flex gap-2 justify-center">
-            {{-- <div class="flex gap-2">
+    <div class="mx-auto my-3 w-11/12 flex md:justify-evenly md:items-center justify-center">
+        {{-- <div class="flex gap-2">
                 <a href="">First</a>
                 <a href="">Previous</a>
             </div>
@@ -42,8 +44,7 @@
                 <a href="">Next</a>
                 <a href="">Last</a>
             </div> --}}
-            {{ $questions->links() }}
-        </div>
+        {{ $questions->links() }}
     </div>
 @endsection
 {{-- End Questions Page --}}

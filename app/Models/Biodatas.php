@@ -10,6 +10,6 @@ class Biodatas extends Model
     use HasFactory;
 
     public function users(){
-        return $this->hasOne(Users::class, 'username', 'username');
+        return $this->hasOne(User::class, 'username', 'username');
     }
 }

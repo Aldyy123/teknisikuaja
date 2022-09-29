@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Biodatas;
 use App\Models\Questions;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
@@ -28,17 +29,24 @@ Route::get('/tanya/{id}', function ($id) {
     ]);
 })->name('detailqs');
 
-Route::get('/detail', function () {
+Route::get('/detail/{id}', function () {
     return view('post');
-});
+})->name('detail-post');
 
 Route::get('/posts', function () {
     return view('posts');
 });
 
 Route::get('/cari-teknisi', function () {
-    return view('cari');
-});
+    $users = Biodatas::all()->where('role', '=', 'technician');
+    return view('cari', [
+        'technician' => $users
+    ]);
+})->name('cari-teknisi');
+
+Route::get('/form-question', function () {
+    return view('form-tanya');
+})->name('form-tanya')->middleware(['auth']);
 
 Route::get('/dashboard', function () {
     return view('layouts.dashboard');

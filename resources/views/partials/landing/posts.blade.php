@@ -26,7 +26,7 @@
                         </p>
                         <footer class="flex items-center justify-between leading-none p-2 md:p-4">
                             <a class="flex items-center text-red-600 no-underline hover:underline"
-                                href="">
+                                href="{{ route('detail-post', 2) }}">
                                 <p class="text-sm">
                                     Baca Selengkapnya
                                 </p>

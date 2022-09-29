@@ -2,6 +2,10 @@
 
 Teknisiku is a web computer consulting service and works with partners to solve problems on client computers.
 
+### 🖼️Preview
+
+![Image](/doc/preview.png)
+
 ### 📆 Development Start
 
 -   September, 2022

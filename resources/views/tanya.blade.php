@@ -19,9 +19,9 @@
                 </div>
             </div>
             <div class="flex justify-evenly">
-                <a href=""
+                <a href="{{ route('form-tanya') }}"
                     class="mr-2 w-5/12 text-center hover:bg-red-800 rounded-md py-1 px-3 bg-red-600 text-white">Tanya</a>
-                <a href=""
+                <a href="{{ route('cari-teknisi') }}"
                     class="mr-2 w-5/12 rounded-md text-center py-1 text-white bg-red-600 hover:bg-red-800">Cari Teknisi</a>
             </div>
         </div>

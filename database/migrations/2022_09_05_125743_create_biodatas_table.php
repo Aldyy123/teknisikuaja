@@ -14,7 +14,8 @@ return new class extends Migration
     public function up()
     {
         Schema::create('biodatas', function (Blueprint $table) {
-            $table->string('username', 50)->primary();
+            $table->id();
+            $table->string('username', 50)->index();
             $table->char('phone')->nullable();
             $table->string('address', 200)->nullable();
             $table->string('img_url')->nullable();

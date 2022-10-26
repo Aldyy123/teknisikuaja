@@ -31,4 +31,8 @@ class AlgoliaSearch extends Controller
             ]
         ];
     }
+
+    public function SearchTechnician(){
+        
+    }
 }

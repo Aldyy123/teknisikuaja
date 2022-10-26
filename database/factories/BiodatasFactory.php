@@ -20,7 +20,8 @@ class BiodatasFactory extends Factory
             'username' => $this->faker->userName(),
             'phone' => fake()->phoneNumber(),
             'address' => fake()->address(),
-            'img_url' => fake()->imageUrl(640, 480, 'people'),
+            'city' => fake()->randomElement(['pemalang', 'tegal', 'brebes', 'magelang', 'yogyakarta', 'semarang', 'wonosobo']),
+            'img_url' => 'https://i.pravatar.cc/300?img=' . fake()->numberBetween(1, 100),
             'role' => fake()->randomElement(['admin', 'user', 'technician'])
         ];
     }

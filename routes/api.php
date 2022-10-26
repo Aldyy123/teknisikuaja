@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AlgoliaSearch;
+use App\Http\Controllers\TechnicianController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -20,3 +21,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/search', [AlgoliaSearch::class, 'search']);
+Route::get('/search-tech', [TechnicianController::class, 'SearchTechnician']);

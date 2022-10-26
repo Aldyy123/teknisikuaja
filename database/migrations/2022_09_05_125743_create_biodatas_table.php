@@ -19,6 +19,7 @@ return new class extends Migration
             $table->char('phone')->nullable();
             $table->string('address', 200)->nullable();
             $table->string('img_url')->nullable();
+            $table->string('city')->nullable();
             $table->enum('role', ['admin', 'user', 'technician'])->default('user');
             $table->timestamps();
         });

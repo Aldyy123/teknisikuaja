@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'searchableAttributes' => ['username', 'phone', 'address', 'role'],
+    'searchableAttributes' => ['username', 'phone', 'address', 'role', 'city'],
 
     /*
     |--------------------------------------------------------------------------
@@ -79,7 +79,7 @@ return [
     |
     */
 
-    'attributesForFaceting' => null,
+    'attributesForFaceting' => ['role'],
 
     /*
     |--------------------------------------------------------------------------

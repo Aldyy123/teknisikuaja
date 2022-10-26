@@ -13,4 +13,12 @@ class TechnicianController extends Controller
             'technician' => $users
         ]);
     }
+
+    public function SearchTechnician(Request $request){
+        $q = $request->query('q');
+        $biodata = Biodatas::where('role', '=', 'technician')->where('city', 'LIKE', "%{$q}%")->get();
+        return [
+            'technician' => $biodata
+        ];
+    }
 }

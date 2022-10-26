@@ -47,8 +47,10 @@
                   </div>
               </div>
               <!-- Modal footer -->
-              <div class="flex items-center justify-end p-6 space-x-2 rounded-b border-t border-gray-200 dark:border-gray-600">
-                <p class="text-gray-400">Search by Algolia</p>
+              <div
+                  class="flex items-center justify-end p-6 space-x-2 rounded-b border-t border-gray-200 dark:border-gray-600">
+                  <p class="text-gray-400">Search by Algolia</p>
+
               </div>
           </div>
       </div>
@@ -228,7 +230,7 @@
       }
 
       searchInput.addEventListener('input', function(e) {
-        titleKeyword.innerHTML = 'Hasil pencarian : ' + e.target.value
+          titleKeyword.innerHTML = 'Hasil pencarian : ' + e.target.value
           fetch('http://127.0.0.1:8000/api/search?q=' + e.target.value)
               .then(api => api.json())
               .then(result => renderListResult(result.result_blog, result.result_technician, result
@@ -236,4 +238,3 @@
               .catch(error => console.log(error));
       })
   </script>
-

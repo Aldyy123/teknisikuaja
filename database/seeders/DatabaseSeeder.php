@@ -22,7 +22,7 @@ class DatabaseSeeder extends Seeder
     {
         // \App\Models\User::factory(10)->create();
         $i = 0;
-        Biodatas::factory(10)->create()->each(function ($datas) {
+        Biodatas::factory(25)->create()->each(function ($datas) {
 
             User::factory()->create([
                 'username' => $datas->username

@@ -33,7 +33,7 @@ Teknisiku is a web computer consulting service and works with partners to solve 
 
 ### 🔍 What's new?
 
--   View changes [more.](../development/changelogs.md)
+-   View changes [more.](../master/changelogs.md)
 
 ### 📸 Preview
 

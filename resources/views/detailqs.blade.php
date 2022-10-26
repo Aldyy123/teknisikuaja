@@ -7,21 +7,17 @@
                 <h1 class="text-2xl font-bold">{{ $question->title }}</h1>
                 <h4>{{ \Carbon\Carbon::parse($question->created_at)->format('H:m D, d M Y') }}</h4>
             </div>
-            <div class="flex gap-2 mt-3 items-center">
-                <img class="h-24 w-24 rounded-full" src="{{ $question->biodata->img_url }}"
-                    alt="{{ $question->biodata->username }}">
-                <div class="mx-5">
-                    <p class="text-xl font-sans font-bold">{{ $question->user->name }}</p>
-                    <p class="text-sm italic font-semibold font-nunito">{{ $question->username }}</p>
-                </div>
-            </div>
+            <p>
+                Author : {{ $question->user->name }}
+            </p>
         </div>
         <hr class="my-3 border-orange-700">
         <div class="my-2">
-            <h3 class="font-bold text-lg">Penjelasan : </h3>
-            <p class="text-justify text-md font-nunito font-normal mt-1">{{ $question->description }}</p>
+            <h3 class="font-bold text-lg">Detail Pertanyaan : </h3>
+            <p class="text-justify bg-gray-200 p-3 rounded text-md font-nunito font-normal mt-1 mb-2">
+                {{ $question->description }}
+            </p>
         </div>
-        <hr class="my-5 border-red-400">
         <div id="disqus_thread"></div>
     </div>
 @endsection

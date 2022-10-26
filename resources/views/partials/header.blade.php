@@ -50,6 +50,7 @@
               <div
                   class="flex items-center justify-end p-6 space-x-2 rounded-b border-t border-gray-200 dark:border-gray-600">
                   <p class="text-gray-400">Search by Algolia</p>
+
               </div>
           </div>
       </div>

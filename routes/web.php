@@ -20,6 +20,7 @@ Route::get('/detail/{id}', [BlogsController::class, 'detail'])->name('detail-pos
 
 Route::get('/posts', [BlogsController::class, 'index']);
 
+
 Route::get('/cari-teknisi', [TechnicianController::class, 'index'])->name('cari-teknisi');
 
 Route::get('/form-question', [QuestionController::class, 'inputUserQuestion'])->name('form-tanya')->middleware(['auth']);

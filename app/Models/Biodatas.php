@@ -10,6 +10,10 @@ class Biodatas extends Model
 {
     use HasFactory, Searchable;
 
+    protected $fillable = [
+        'username', 'city', 'address', 'phone', 'img_url', 'role'
+    ];
+
     public function users(){
         return $this->hasOne(User::class, 'username', 'username');
     }

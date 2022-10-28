@@ -9,7 +9,7 @@ class QuestionController extends Controller
 {
     public function index()
     {
-        $qestions = Questions::paginate(2);
+        $qestions = Questions::paginate(5);
         return view('tanya', [
             'questions' => $qestions,
         ]);

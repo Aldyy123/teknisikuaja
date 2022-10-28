@@ -49,7 +49,7 @@
 
             {{-- Article Category --}}
 
-            <div class="mt-5">
+            {{-- <div class="mt-5">
                 <span class="font-bold mb-5"> Kategori Artikel : </span>
                 <ul
                     class="w-48 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 dark:bg-gray-700 dark:border-gray-600 dark:text-white mt-2">
@@ -59,8 +59,7 @@
                     <li class="py-2 px-4 w-full border-b border-gray-200 dark:border-gray-600">Komputer</li>
                     <li class="py-2 px-4 w-full rounded-b-lg">Air Condition</li>
                 </ul>
-
-            </div>
+            </div> --}}
 
 
         </div>

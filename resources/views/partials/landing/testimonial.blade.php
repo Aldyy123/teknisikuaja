@@ -4,7 +4,7 @@
       <img src="https://images.unsplash.com/photo-1507587396692-5afe1f777676?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Leslie Alexander" class="w-full rounded-xl shadow-md md:rounded-2xl md:shadow-lg h-48 md:h-72 lg:h-full object-cover">
       <div class="absolute bottom-0 text-white bg-gradient-to-b from-transparent to-gray-700 rounded-2xl h-auto p-5 md:p-10">
         <span class="mb-2 inline-block text-sm font-light">Leslie Alexander</span>
-        <p class="text-sm leading-relaxed">“Also be sure to check out which works with your Gmail to create a simplified newsletter reading experience away from the business of your inbox.”</p>
+        <p class="text-sm leading-relaxed">“Sangat memuaskan, teknisnya bagus, sesuai sasaran, cara kerjanya cepat dan rapih.”</p>
       </div>
     </div>
   </div>
@@ -16,21 +16,21 @@
         <img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80" alt="Esther Howard" class="w-24 h-24 object-cover rounded-2xl flex-none">
         <div>
           <span class="mb-2 inline-block text-sm font-light mt-5 sm:mt-0">Esther Howard</span>
-          <p class="text-sm leading-relaxed font-semibold text-gray-900">“You should try out. Organizes all the newsletters very neastly. Still in pretty early stage but it's great so far.”</p>
+          <p class="text-sm leading-relaxed font-semibold text-gray-900">"Saya sangat suka cara kerjanya, Fast respon bisa menjangkau ke wilayah yang jangakaunnya kurang seperti di daerah saya ini.”</p>
         </div>
       </div>
       <div class="sm:flex gap-6 items-center border-t border-gray-200 pt-12 sm:border-0 sm:pt-0">
         <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Eleanor Pena" class="w-24 h-24 object-cover rounded-2xl flex-none">
         <div>
           <span class="mb-2 inline-block text-sm font-light mt-5 sm:mt-0">Eleanor Pena</span>
-          <p class="text-sm leading-relaxed font-semibold text-gray-900">“Wow, can't believe I have only just found Mecca been after such a service for years, super excited! Thank you guys for developing.”</p>
+          <p class="text-sm leading-relaxed font-semibold text-gray-900">“Sangat puas , dengan adanya website ini bisa mempermudah saya untuk menemukan customer diberbagai daerah.”</p>
         </div>
       </div>
       <div class="sm:flex gap-6 items-center border-t border-gray-200 pt-12 sm:border-0 sm:pt-0">
         <img src="https://images.unsplash.com/photo-1464863979621-258859e62245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80" alt="Dianner Russell" class="w-24 h-24 object-cover rounded-2xl flex-none">
         <div>
           <span class="mb-2 inline-block text-sm font-light mt-5 sm:mt-0">Dianner Russell</span>
-          <p class="text-sm leading-relaxed font-semibold text-gray-900">“Mecca, the app I LOVE to house all my email subscriptions is letting me beta a web based version and I am soooo happy”</p>
+          <p class="text-sm leading-relaxed font-semibold text-gray-900">“Bagus sekali website ini, kalau bisa lebih di kembangkan lagi untuk wilayahnya biar bisa antar provinsi.”</p>
         </div>
       </div>
     </div>
